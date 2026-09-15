@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="repository.xstream.mod"
+name="xStream Mod Repository"
+version="1.0.0"
+provider-name="Jinbin">
+
+<extension point="xbmc.addon.repository"
+name="xStream Mod Repository">
+<info compressed="false">https://raw.githubusercontent.com/jinbinzh/kodi-xstream-mod-repo/main/addons.xml</info>
+<checksum>https://raw.githubusercontent.com/jinbinzh/kodi-xstream-mod-repo/main/addons.xml.md5</checksum>
+<datadir zip="true">https://raw.githubusercontent.com/jinbinzh/kodi-xstream-mod-repo/main/plugin.video.xstream/</datadir>
+</extension>
+
+<extension point="xbmc.addon.metadata">
+<summary>Modified xStream repository</summary>
+<description>Private xStream modification repository.</description>
+<platform>all</platform>
+</extension>
+
+</addon>
